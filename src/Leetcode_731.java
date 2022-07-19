@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Leetcode {
+public class Leetcode_731 {
 
     public static void main(String[] args) {
 
