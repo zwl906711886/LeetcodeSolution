@@ -5,8 +5,7 @@ public class Leetcode_1260 {
 
 }
 
-class Solution {
-
+class shiftGrid {
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
         int n = grid.length;
         int m = grid[0].length;
