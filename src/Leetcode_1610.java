@@ -27,7 +27,7 @@ class VisiblePoints{
         int n = list.size(), max = 0;
         for (int i = 0; i < n; i++) list.add(list.get(i) + 2 * pi);
         for (int i = 0, j = 0; i < 2 * n; i++) {
-            while (j < i && list.get(i) -list.get(j) > t + eps) j++;
+            while (j < i && list.get(i) - list.get(j) > t + eps) j++;
             max = Math.max(max, j - i + 1);
         }
         return max + cnt;
