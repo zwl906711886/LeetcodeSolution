@@ -6,18 +6,17 @@ public class Leetcode_1374 {
 
 class GenerateTheString{
     public String generateTheString(int n) {
-        String ans = "";
+        StringBuilder ans = new StringBuilder();
         if (n % 2 == 1) {
             for (int i = 0; i < n; i ++) {
-                ans += "a";
+                ans.append("a");
             }
-        }
-        else {
+        } else {
             for (int i = 0; i < n - 1; i++) {
-                ans += "a";
+                ans.append("a");
             }
-            ans += "b";
+            ans.append("b");
         }
-        return ans;
+        return ans.toString();
     }
 }
